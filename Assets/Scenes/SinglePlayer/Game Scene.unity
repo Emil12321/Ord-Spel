@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &168431940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1328538069879846826, guid: 52151ad12b9295947bdd2498f0c47316,
-    type: 3}
-  m_PrefabInstance: {fileID: 4127804466190845951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &227356462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5401303762102635313, guid: f9d4886e2811ef64992c858ce9265fdb,
@@ -254,8 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9189279ab993c5141872e6075ba389fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HardModeButtons: {fileID: 168431940}
-  HardModeParent: {fileID: 4127804466190845952}
+  HardModeButton: {fileID: 1914841120}
+  Canvas: {fileID: 1532304520}
 --- !u!1 &859118044
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +427,18 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1431391034, guid: f9d4886e2811ef64992c858ce9265fdb,
     type: 3}
   m_PrefabInstance: {fileID: 2083275286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1532304520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4127804467207064042, guid: 52151ad12b9295947bdd2498f0c47316,
+    type: 3}
+  m_PrefabInstance: {fileID: 4127804466190845951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1914841120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8031273553270116918, guid: 52151ad12b9295947bdd2498f0c47316,
+    type: 3}
+  m_PrefabInstance: {fileID: 4127804466190845951}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1933227619 stripped
 GameObject:
@@ -696,6 +702,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -104
+      objectReference: {fileID: 0}
     - target: {fileID: 4620890649282912392, guid: 52151ad12b9295947bdd2498f0c47316,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -716,14 +737,13 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 8031273553270116918, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52151ad12b9295947bdd2498f0c47316, type: 3}
---- !u!1 &4127804466190845952 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3658943694284921576, guid: 52151ad12b9295947bdd2498f0c47316,
-    type: 3}
-  m_PrefabInstance: {fileID: 4127804466190845951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6793901377930197507
 PrefabInstance:
   m_ObjectHideFlags: 0
