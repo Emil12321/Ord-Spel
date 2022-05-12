@@ -29,10 +29,12 @@ public class GeneralUI : MonoBehaviour
             if(pauseMenu.enabled == true)
             {
                 pauseMenu.enabled = false;
+                Timer.timerActivated = true;
             }
             else
             {
                 pauseMenu.enabled = true;
+                Timer.timerActivated = false;
             }
         }
     }
@@ -47,6 +49,7 @@ public class GeneralUI : MonoBehaviour
     public void ClosePauseMenu()
     {
         pauseMenu.enabled = false;
+        Timer.timerActivated = true;
     }
 
     public void CloseSettingsMenu()

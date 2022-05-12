@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &168431940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1328538069879846826, guid: 52151ad12b9295947bdd2498f0c47316,
+    type: 3}
+  m_PrefabInstance: {fileID: 4127804466190845951}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &227356462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5401303762102635313, guid: f9d4886e2811ef64992c858ce9265fdb,
@@ -230,6 +236,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e80cf6fb91967514bb1610f7c66f5f87, type: 3}
+--- !u!1 &322586115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173159522995175722, guid: e80cf6fb91967514bb1610f7c66f5f87,
+    type: 3}
+  m_PrefabInstance: {fileID: 322586114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &322586116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322586115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9189279ab993c5141872e6075ba389fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HardModeButtons: {fileID: 168431940}
+  HardModeParent: {fileID: 4127804466190845952}
 --- !u!1 &859118044
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +306,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 322586114}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 322586115}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc298d45a618f314a9fb4090f1dc7a23, type: 3}
@@ -440,6 +466,11 @@ PrefabInstance:
     - target: {fileID: 1769601657, guid: f9d4886e2811ef64992c858ce9265fdb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 37388878356342565, guid: f9d4886e2811ef64992c858ce9265fdb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 478011309703241027, guid: f9d4886e2811ef64992c858ce9265fdb,
         type: 3}
@@ -665,8 +696,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4620890649282912392, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4620890649282912392, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437037133320876986, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437037133320876986, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 130
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52151ad12b9295947bdd2498f0c47316, type: 3}
+--- !u!1 &4127804466190845952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3658943694284921576, guid: 52151ad12b9295947bdd2498f0c47316,
+    type: 3}
+  m_PrefabInstance: {fileID: 4127804466190845951}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6793901377930197507
 PrefabInstance:
   m_ObjectHideFlags: 0

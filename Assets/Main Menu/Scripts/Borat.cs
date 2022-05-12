@@ -5,7 +5,6 @@ public class Borat : MonoBehaviour
 {
 
     public static bool BoratEnable = false;
-
     [SerializeField] GameObject borat;
     // Start is called before the first frame update
     public void Start()
@@ -13,6 +12,11 @@ public class Borat : MonoBehaviour
         if (BoratEnable == false)
         {
             borat.SetActive(false);
+        }
+
+        if (BoratEnable == true)
+        {
+            this.gameObject.SetActive(false);
         }
     }
 
