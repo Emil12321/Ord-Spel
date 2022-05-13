@@ -587,6 +587,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3099879838824067706, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3099879838824067706, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: 1eaee135ce037439d925cee5e41ce026,
+        type: 3}
     - target: {fileID: 4127804465430488391, guid: 52151ad12b9295947bdd2498f0c47316,
         type: 3}
       propertyPath: Setting
@@ -701,6 +712,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4317078715011691387, guid: 52151ad12b9295947bdd2498f0c47316,
         type: 3}
